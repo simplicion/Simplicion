@@ -35,7 +35,7 @@
   --color-border-subtle: rgba(186, 230, 253, 0.5);
 
   --color-primary: var(--theme-color);
-  --color-primary-hover: var(--primary-dark-rgb);
+  --color-primary-hover: #1d4ed8; /* blue-700 */
   --color-primary-muted: rgba(var(--primary-rgb), 0.15);
   --color-primary-glow: rgba(var(--primary-rgb), 0.4);
 
