@@ -63,6 +63,9 @@ export interface ButtonProps
   rightIcon?: React.ReactNode;
   /** Loading state */
   isLoading?: boolean;
+  target?: string;
+  /** Rel attribute for links */
+  rel?: string;
 }
 
 export function Button({
@@ -70,6 +73,8 @@ export function Button({
   variant,
   size,
   href,
+  target,
+  rel,
   leftIcon,
   rightIcon,
   isLoading,
@@ -113,7 +118,7 @@ export function Button({
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a href={href} target={target} rel={rel} className={classes}>
         {content}
       </a>
     );

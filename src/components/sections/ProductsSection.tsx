@@ -54,6 +54,8 @@ function ProductCard({ product, index }: { product: Product; index: number }) {
               variant="ghost"
               size="sm"
               href={product.href}
+              target={product.href.startsWith("http") ? "_blank" : undefined}
+              rel={product.href.startsWith("http") ? "noopener noreferrer" : undefined}
               rightIcon={
                 <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
               }
