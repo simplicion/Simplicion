@@ -90,7 +90,7 @@ export default function RootLayout({
         antialiased
       `}
     >
-      <body className="min-h-screen flex flex-col font-[family-name:var(--font-inter)]">
+      <body className="min-h-screen flex flex-col font-[family-name:var(--font-inter)] overflow-x-hidden">
         {/* Accessibility: Skip to content */}
         <a href="#main-content" className="skip-to-content">
           Skip to main content

@@ -71,7 +71,7 @@ function ProductCard({ product, index }: { product: Product; index: number }) {
 export function ProductsSection() {
   return (
     <section
-      className="relative section-padding overflow-hidden"
+      className="relative section-padding overflow-x-clip"
       id="products"
       aria-label="Our Products"
     >

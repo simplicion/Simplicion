@@ -59,7 +59,7 @@ function ResearchCard({ area, index }: { area: ResearchArea; index: number }) {
 export function ResearchSection() {
   return (
     <section
-      className="relative section-padding bg-surface/20 overflow-hidden"
+      className="relative section-padding bg-surface/20 overflow-x-clip"
       id="research"
       aria-label="Research"
     >

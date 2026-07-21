@@ -41,7 +41,7 @@ const itemVariants: Variants = {
 export function HeroSection() {
   return (
     <section
-      className="relative min-h-[90vh] flex items-center justify-center overflow-hidden"
+      className="relative min-h-[90vh] flex items-center justify-center overflow-x-clip"
       id="hero"
       aria-label="Hero"
     >

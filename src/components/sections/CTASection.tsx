@@ -15,7 +15,7 @@ import { BRAND } from "@/constants";
 export function CTASection() {
   return (
     <section
-      className="relative section-padding overflow-hidden"
+      className="relative section-padding overflow-x-clip"
       id="cta"
       aria-label="Get in touch"
     >
