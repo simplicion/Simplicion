@@ -67,7 +67,7 @@ export function HeroSection() {
           {/* Headline */}
           <motion.h1
             variants={itemVariants}
-            className="heading-display heading-xl mb-6 bg-gradient-to-b from-white via-white to-white/60 bg-clip-text text-transparent"
+            className="heading-display heading-xl mb-6 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-500 bg-clip-text text-transparent"
           >
             {BRAND.tagline}
           </motion.h1>
