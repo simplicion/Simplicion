@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+:root { 
+  /* Swapped Red for Tailwind Blue (blue-600) */ 
+  --theme-color: #2563eb; 
+  --primary-rgb: 37 99 235; 
+  --primary-dark-rgb: 29 78 216; /* blue-700 */ 
+  
+  /* Swapped Purple for Tailwind Indigo (indigo-500) */ 
+  --secondary: #6366f1; 
+  --success: #10b981; 
+  --warning: #f59e0b; 
+  --danger: #ef4444; 
+  --sidebar-width: 260px; 
+} 
+
+.dark { 
+  /* Adjusted for dark mode (blue-500) */ 
+  --theme-color: #3b82f6; 
+  --primary-rgb: 59 130 246; 
+  --primary-dark-rgb: 37 99 235; /* blue-600 */ 
+}
+
 /* ============================================================================
    Simplicion — Design System
    Tailwind CSS v4 Theme Configuration
@@ -7,29 +28,29 @@
 
 @theme inline {
   /* ---- Colors ---- */
-  --color-background: #09090B;
-  --color-surface: #111827;
-  --color-surface-hover: #1a2332;
-  --color-border: #1F2937;
-  --color-border-subtle: rgba(31, 41, 55, 0.5);
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-surface-hover: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-border-subtle: rgba(226, 232, 240, 0.5);
 
-  --color-primary: #2563EB;
-  --color-primary-hover: #3b82f6;
-  --color-primary-muted: rgba(37, 99, 235, 0.15);
-  --color-primary-glow: rgba(37, 99, 235, 0.4);
+  --color-primary: var(--theme-color);
+  --color-primary-hover: var(--primary-dark-rgb);
+  --color-primary-muted: rgba(var(--primary-rgb), 0.15);
+  --color-primary-glow: rgba(var(--primary-rgb), 0.4);
 
-  --color-accent: #6366F1;
+  --color-accent: var(--secondary);
   --color-accent-muted: rgba(99, 102, 241, 0.15);
 
-  --color-success: #10B981;
-  --color-warning: #F59E0B;
-  --color-error: #EF4444;
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--danger);
 
-  --color-text-primary: #FFFFFF;
-  --color-text-secondary: #94A3B8;
-  --color-text-muted: #64748B;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
 
-  --color-foreground: #FFFFFF;
+  --color-foreground: #0f172a;
 
   /* ---- Fonts ---- */
   --font-heading: var(--font-michroma), system-ui, sans-serif;
