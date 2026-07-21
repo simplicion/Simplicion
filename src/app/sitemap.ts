@@ -24,9 +24,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Dynamic project/product routes
   const projectRoutes = [...PRODUCTS, ...LAB_PROJECTS]
-    .filter(p => p.href.startsWith('/')) // Only internal routes
+    .filter(p => 'href' in p ? p.href.startsWith('/') : true) // All LAB_PROJECTS are internal (/labs/[id])
     .map((product) => ({
-      url: `${baseUrl}${product.href}`,
+      url: `${baseUrl}${'href' in product ? product.href : `/labs/${product.id}`}`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
