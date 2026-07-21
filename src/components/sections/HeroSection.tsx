@@ -6,7 +6,7 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ArrowRight, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
@@ -21,7 +21,7 @@ const NeuralNetwork = dynamic(
   { ssr: false }
 );
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -29,7 +29,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: {
     opacity: 1,
