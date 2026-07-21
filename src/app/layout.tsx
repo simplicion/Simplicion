@@ -73,7 +73,10 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/black%20icon.svg", media: "(prefers-color-scheme: light)" },
+      { url: "/white%20icon.svg", media: "(prefers-color-scheme: dark)" }
+    ],
   },
 };
 
