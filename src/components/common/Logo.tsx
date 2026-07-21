@@ -28,8 +28,7 @@ export function Logo({ className, size = "md" }: LogoProps) {
       )}
       aria-label="Simplicion Private Limited — Home"
     >
-      <img src="/black%20logo.svg" alt="Simplicion Logo" className={cn("w-auto dark:hidden", sizeMap[size])} />
-      <img src="/white%20logo.svg" alt="Simplicion Logo" className={cn("w-auto hidden dark:block", sizeMap[size])} />
+      <img src="/black%20logo.svg" alt="Simplicion Logo" className={cn("w-auto", sizeMap[size])} />
     </Link>
   );
 }
