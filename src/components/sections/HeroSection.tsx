@@ -41,7 +41,7 @@ const itemVariants: Variants = {
 export function HeroSection() {
   return (
     <section
-      className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
+      className="relative min-h-[85vh] flex items-center justify-center overflow-hidden"
       id="hero"
       aria-label="Hero"
     >
@@ -49,7 +49,7 @@ export function HeroSection() {
       <NeuralNetwork className="opacity-60" />
 
       {/* Content */}
-      <Container className="relative z-10 py-20 md:py-32 -mt-20">
+      <Container className="relative z-10 py-20 md:py-32">
         <motion.div
           variants={containerVariants}
           initial="hidden"
