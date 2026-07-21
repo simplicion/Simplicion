@@ -56,13 +56,6 @@ export function HeroSection() {
           animate="visible"
           className="max-w-4xl mx-auto text-center"
         >
-          {/* Tag */}
-          <motion.div variants={itemVariants}>
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 text-xs font-medium tracking-[0.15em] uppercase text-primary bg-primary-muted rounded-full border border-primary/20">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              Research-Driven Technology Company
-            </span>
-          </motion.div>
 
           {/* Headline */}
           <motion.h1
