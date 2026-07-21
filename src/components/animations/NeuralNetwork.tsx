@@ -20,7 +20,7 @@ const COLORS = {
   primary: new THREE.Color("#2563EB"),
   accent: new THREE.Color("#6366F1"),
   glow: new THREE.Color("#3b82f6"),
-  particle: new THREE.Color("#94A3B8"),
+  particle: new THREE.Color("#93C5FD"),
 };
 
 // ---------------------------------------------------------------------------
