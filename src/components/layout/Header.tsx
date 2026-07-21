@@ -115,7 +115,7 @@ export function Header() {
               <button
                 onClick={() => setMobileOpen(true)}
                 className={cn(
-                  "lg:hidden p-2 text-text-secondary",
+                  "lg:hidden p-3 text-text-secondary",
                   "hover:text-text-primary transition-colors",
                   "rounded-lg focus-visible:outline-2 focus-visible:outline-primary"
                 )}

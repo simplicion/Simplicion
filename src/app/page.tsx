@@ -14,7 +14,7 @@ import { Divider } from "@/components/ui/Divider";
 
 export default function HomePage() {
   return (
-    <>
+    <main id="main-content">
       <HeroSection />
       <StatsSection />
       <Divider className="my-0" />
@@ -29,6 +29,6 @@ export default function HomePage() {
       <TimelineSection />
       <Divider className="my-0" />
       <CTASection />
-    </>
+    </main>
   );
 }

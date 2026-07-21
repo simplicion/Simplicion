@@ -6,6 +6,7 @@ import type { Metadata, Viewport } from "next";
 import { michroma, inter, jetbrainsMono, spaceGrotesk } from "@/styles/fonts";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { BRAND } from "@/constants";
 import "./globals.css";
 
@@ -16,7 +17,11 @@ export const metadata: Metadata = {
   },
   description: BRAND.description,
   metadataBase: new URL(BRAND.url),
+  alternates: {
+    canonical: '/',
+  },
   keywords: [
+    "Simplicion Private Limited",
     "Simplicion",
     "Artificial Intelligence",
     "Engineering",
@@ -26,6 +31,10 @@ export const metadata: Metadata = {
     "Intelligent Systems",
     "Robotics",
     "Technology Company",
+    "Business Operating System",
+    "Startup Growth",
+    "Founder Networking",
+    "Pitchin180",
   ],
   authors: [{ name: BRAND.name, url: BRAND.url }],
   creator: BRAND.name,
@@ -95,6 +104,7 @@ export default function RootLayout({
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>
+        <JsonLd />
 
         <Header />
 
@@ -104,31 +114,7 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* JSON-LD Organization Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Simplicion",
-              url: BRAND.url,
-              logo: `${BRAND.url}/logo.png`,
-              description: BRAND.description,
-              foundingDate: BRAND.founded,
-              sameAs: [
-                "https://linkedin.com/company/simplicion",
-                "https://github.com/simplicion",
-                "https://x.com/simplicion",
-              ],
-              contactPoint: {
-                "@type": "ContactPoint",
-                contactType: "Customer Service",
-                url: `${BRAND.url}/contact`,
-              },
-            }),
-          }}
-        />
+
       </body>
     </html>
   );

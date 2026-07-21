@@ -5,7 +5,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 
-type BadgeStatus = "live" | "in-development" | "coming-soon";
+type BadgeStatus = "live" | "in-development" | "coming-soon" | "working" | "development" | "under-development";
 
 interface BadgeProps {
   status: BadgeStatus;
@@ -28,11 +28,29 @@ const statusConfig: Record<
     bgColor: "bg-warning/10",
     textColor: "text-warning",
   },
+  "under-development": {
+    label: "Under Development",
+    dotColor: "bg-warning",
+    bgColor: "bg-warning/10",
+    textColor: "text-warning",
+  },
   "coming-soon": {
     label: "Coming Soon",
     dotColor: "bg-primary",
     bgColor: "bg-primary/10",
     textColor: "text-primary",
+  },
+  "working": {
+    label: "Working Prototype",
+    dotColor: "bg-emerald-500",
+    bgColor: "bg-emerald-500/10",
+    textColor: "text-emerald-600",
+  },
+  "development": {
+    label: "In Development",
+    dotColor: "bg-warning",
+    bgColor: "bg-warning/10",
+    textColor: "text-warning",
   },
 };
 

@@ -12,6 +12,7 @@ import type {
   Stat,
   SocialLink,
   FooterColumn,
+  LabProject,
 } from "@/types";
 
 // ---------------------------------------------------------------------------
@@ -32,17 +33,8 @@ export const BRAND = {
 // Navigation
 // ---------------------------------------------------------------------------
 export const NAV_ITEMS: NavItem[] = [
-  {
-    label: "Products",
-    href: "/products",
-    children: [
-      { label: "Pitchin180", href: "/products/pitchin180" },
-      { label: "Pitchin180 Workspace", href: "/products/workspace" },
-      { label: "Simplicion Labs", href: "/labs" },
-    ],
-  },
-  { label: "Research", href: "/research" },
-  { label: "Technology", href: "/technology" },
+  { label: "Products", href: "/products" },
+  { label: "Simplicion Labs", href: "/labs" },
   { label: "Company", href: "/company" },
   { label: "Careers", href: "/careers" },
 ];
@@ -56,7 +48,7 @@ export const PRODUCTS: Product[] = [
     name: "Pitchin180",
     tagline: "Founder Networking Platform",
     description:
-      "Connect founders, investors, mentors, startups, agencies, and professionals through intelligent networking.",
+      "Pitchin180 is an AI-powered founder networking platform by Simplicion. Connect founders, angel investors, mentors, and startups through intelligent matchmaking algorithms. Built to accelerate startup growth and professional networking.",
     status: "live",
     href: "https://pitchin180.com",
     icon: "network",
@@ -66,20 +58,20 @@ export const PRODUCTS: Product[] = [
     name: "Pitchin180 Workspace",
     tagline: "Business Operating System",
     description:
-      "AI-powered workspace for startups and growing businesses with CRM, HR, finance, projects, documentation, analytics, and automation.",
+      "Pitchin180 Workspace is an AI-powered Business Operating System (BOS) for startups and growing businesses. It features an integrated CRM, HR management, finance tracking, project management, and automated documentation built by Simplicion.",
     status: "live",
     href: "https://workspace.pitchin180.com",
     icon: "layout-dashboard",
   },
   {
-    id: "labs",
-    name: "Simplicion Labs",
-    tagline: "Research Division",
+    id: "join-cab",
+    name: "JoinCab",
+    tagline: "Long-Distance Ride & Travel Community",
     description:
-      "Advanced research in Artificial Intelligence, Intelligent Systems, Robotics, Cloud Infrastructure, and Future Computing.",
-    status: "in-development",
-    href: "/labs",
-    icon: "flask-conical",
+      "JoinCab is a long-distance ride-sharing and travel community app under development by Simplicion Labs. Book intercity rides, explore curated tour packages, and build a verified travel community with people on the same routes.",
+    status: "under-development",
+    href: "/labs/join-cab",
+    icon: "car",
   },
 ];
 
@@ -304,8 +296,8 @@ export const FOOTER_COLUMNS: FooterColumn[] = [
   {
     title: "Products",
     links: [
-      { label: "Pitchin180", href: "/products/pitchin180" },
-      { label: "Workspace", href: "/products/workspace" },
+      { label: "Pitchin180", href: "https://pitchin180.com" },
+      { label: "Workspace", href: "https://workspace.pitchin180.com" },
       { label: "Labs", href: "/labs" },
     ],
   },
@@ -345,4 +337,28 @@ export const LEGAL_LINKS = [
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
   { label: "Security", href: "/security" },
+];
+
+// ---------------------------------------------------------------------------
+// Lab Projects
+// ---------------------------------------------------------------------------
+export const LAB_PROJECTS: LabProject[] = [
+  {
+    id: "snap-air",
+    name: "SnapAir",
+    tagline: "Gesture-based System Controller",
+    description: "Control your entire computer through a single application using hand gestures, eye tracking, and voice commands.",
+    fullDescription: "SnapAir is a revolutionary human-computer interface designed to eliminate the need for traditional peripherals. By installing a single application, users can navigate their entire operating system and applications using intuitive hand gestures, precise eye-tracking, and natural voice commands. Engineered for accessibility, presentation environments, and spatial computing interfaces, SnapAir represents the next generation of seamless digital interaction.",
+    status: "development",
+    image: "/og-image.png"
+  },
+  {
+    id: "snap-cli",
+    name: "SnapCLI",
+    tagline: "Infrastructure Development Toolkit",
+    description: "Instantly bootstrap complex software architectures, from ecommerce to ride-sharing, with production-ready base infrastructure.",
+    fullDescription: "SnapCLI is the ultimate developer productivity toolkit. Whether you're building a massively scalable ecommerce platform or a real-time ride-sharing application (like Rapido), SnapCLI provides the foundational architecture in seconds. It automatically provisions authentication, database schemas, and API gateways while adhering to strict High-Level Design (HLD) and Low-Level Design (LLD) principles. The generated codebase provides an enterprise-grade engineering base, saving months of initial setup time.",
+    status: "development",
+    image: "/og-image.png"
+  },
 ];

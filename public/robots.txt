@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Specifically allow major AI crawlers for AEO (Artificial Engine Optimization)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://simplicion.com/sitemap.xml

@@ -28,7 +28,7 @@ export function Logo({ className, size = "md" }: LogoProps) {
         sizeMap[size],
         className
       )}
-      aria-label="Simplicion — Home"
+      aria-label="Simplicion Private Limited — Home"
     >
       SIMPLICION
     </Link>

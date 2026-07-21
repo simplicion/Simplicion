@@ -65,7 +65,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             <div className="flex items-center justify-end p-6">
               <button
                 onClick={onClose}
-                className="p-2 text-text-secondary hover:text-text-primary transition-colors rounded-lg focus-visible:outline-2 focus-visible:outline-primary"
+                className="p-3 text-text-secondary hover:text-text-primary transition-colors rounded-lg focus-visible:outline-2 focus-visible:outline-primary"
                 aria-label="Close menu"
               >
                 <X className="h-6 w-6" />

@@ -13,6 +13,7 @@ interface SectionHeadingProps {
   heading: string;
   description?: string;
   align?: "left" | "center";
+  as?: "h1" | "h2" | "h3";
   className?: string;
 }
 
@@ -21,6 +22,7 @@ export function SectionHeading({
   heading,
   description,
   align = "center",
+  as: Component = "h2",
   className,
 }: SectionHeadingProps) {
   return (
@@ -37,7 +39,7 @@ export function SectionHeading({
             {label}
           </span>
         )}
-        <h2
+        <Component
           className={cn(
             "heading-display",
             "heading-md",
@@ -45,7 +47,7 @@ export function SectionHeading({
           )}
         >
           {heading}
-        </h2>
+        </Component>
         {description && (
           <p
             className={cn(

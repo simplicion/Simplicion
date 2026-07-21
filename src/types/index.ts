@@ -13,7 +13,7 @@ export interface Product {
   name: string;
   tagline: string;
   description: string;
-  status: "live" | "in-development" | "coming-soon";
+  status: "live" | "in-development" | "under-development" | "coming-soon";
   href: string;
   icon: string;
 }
@@ -66,4 +66,14 @@ export interface FooterColumn {
     label: string;
     href: string;
   }[];
+}
+
+export interface LabProject {
+  id: string;
+  name: string;
+  tagline: string;
+  description: string;
+  fullDescription: string;
+  status: "working" | "development";
+  image: string;
 }

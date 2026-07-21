@@ -95,7 +95,7 @@ export function Footer() {
                     <Link
                       href={link.href}
                       className={cn(
-                        "text-sm text-text-secondary",
+                        "text-sm text-text-secondary inline-block py-1",
                         "hover:text-text-primary transition-colors duration-200"
                       )}
                     >
@@ -114,7 +114,7 @@ export function Footer() {
         {/* Bottom section: Copyright + Legal */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Simplicion. All rights reserved.
+            &copy; {new Date().getFullYear()} Simplicion Private Limited. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">
@@ -122,7 +122,7 @@ export function Footer() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-xs text-text-muted hover:text-text-secondary transition-colors duration-200"
+                className="text-xs text-text-muted hover:text-text-secondary transition-colors duration-200 inline-block py-2"
               >
                 {link.label}
               </Link>
