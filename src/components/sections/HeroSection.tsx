@@ -45,7 +45,10 @@ export function HeroSection() {
       id="hero"
       aria-label="Hero"
     >
-      {/* Background removed as requested */}
+      {/* Neural Network Background */}
+      <div className="absolute inset-0 z-0 opacity-80">
+        <NeuralNetwork />
+      </div>
 
       {/* Content */}
       <Container className="relative z-10 py-12 md:py-24 -mt-10">

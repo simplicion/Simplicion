@@ -19,8 +19,6 @@ export function CTASection() {
       id="cta"
       aria-label="Get in touch"
     >
-      <GlowEffect position="center" color="mixed" size="xl" />
-
       <Container size="narrow">
         <ScrollReveal>
           <div className="text-center">
