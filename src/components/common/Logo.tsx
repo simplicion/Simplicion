@@ -12,9 +12,9 @@ interface LogoProps {
 }
 
 const sizeMap = {
-  sm: "text-sm tracking-[0.2em]",
-  md: "text-base tracking-[0.25em]",
-  lg: "text-xl tracking-[0.3em]",
+  sm: "h-6",
+  md: "h-8",
+  lg: "h-10",
 };
 
 export function Logo({ className, size = "md" }: LogoProps) {
@@ -22,19 +22,14 @@ export function Logo({ className, size = "md" }: LogoProps) {
     <Link
       href="/"
       className={cn(
-        "font-[family-name:var(--font-michroma)] font-normal uppercase",
-        "text-text-primary hover:text-primary transition-colors duration-300",
-        "focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-4 flex items-center gap-2.5",
-        sizeMap[size],
+        "transition-opacity duration-300 hover:opacity-80",
+        "focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-4 flex items-center",
         className
       )}
       aria-label="Simplicion Private Limited — Home"
     >
-      <img src="/black%20icon.svg" alt="Simplicion Icon" className="w-6 h-6 dark:hidden" />
-      <img src="/white%20icon.svg" alt="Simplicion Icon" className="w-6 h-6 hidden dark:block" />
-      <span className="flex items-center">
-        SIMPLICI<span className="text-primary">O</span>N
-      </span>
+      <img src="/black%20logo.svg" alt="Simplicion Logo" className={cn("w-auto dark:hidden", sizeMap[size])} />
+      <img src="/white%20logo.svg" alt="Simplicion Logo" className={cn("w-auto hidden dark:block", sizeMap[size])} />
     </Link>
   );
 }
