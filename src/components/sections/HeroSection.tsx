@@ -49,7 +49,7 @@ export function HeroSection() {
       <NeuralNetwork className="opacity-60" />
 
       {/* Content */}
-      <Container className="relative z-10 py-32 md:py-40">
+      <Container className="relative z-10 py-20 md:py-32 -mt-20">
         <motion.div
           variants={containerVariants}
           initial="hidden"
