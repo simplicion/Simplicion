@@ -45,8 +45,7 @@ export function HeroSection() {
       id="hero"
       aria-label="Hero"
     >
-      {/* Three.js Background */}
-      <NeuralNetwork className="opacity-60" />
+      {/* Background removed as requested */}
 
       {/* Content */}
       <Container className="relative z-10 py-12 md:py-24 -mt-10">
