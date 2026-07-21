@@ -24,7 +24,7 @@ export function CTASection() {
       <Container size="narrow">
         <ScrollReveal>
           <div className="text-center">
-            <h2 className="heading-display heading-lg mb-4 bg-gradient-to-b from-white via-white to-white/60 bg-clip-text text-transparent">
+            <h2 className="heading-display heading-lg mb-4 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-500 bg-clip-text text-transparent">
               {BRAND.tagline}
             </h2>
             <p className="text-body-lg text-text-secondary max-w-xl mx-auto mb-10">

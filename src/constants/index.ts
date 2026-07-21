@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     description:
       "Connect founders, investors, mentors, startups, agencies, and professionals through intelligent networking.",
     status: "live",
-    href: "/products/pitchin180",
+    href: "https://pitchin180.com",
     icon: "network",
   },
   {
@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
     description:
       "AI-powered workspace for startups and growing businesses with CRM, HR, finance, projects, documentation, analytics, and automation.",
     status: "live",
-    href: "/products/workspace",
+    href: "https://workspace.pitchin180.com",
     icon: "layout-dashboard",
   },
   {
