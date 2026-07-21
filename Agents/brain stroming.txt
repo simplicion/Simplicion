@@ -1,0 +1,1090 @@
+Since you're using AI to generate the website, don't just give it a few paragraphs. Give it a complete brand specification so it understands how Simplicion should look, feel, and communicate.
+________________________________________
+SIMPLICION Brand Identity
+Company Name
+SIMPLICION
+Tagline Options
+•	Engineering Intelligence. 
+•	Building Intelligence for Humanity. 
+•	Beyond Software. 
+•	Intelligence, Engineered. 
+•	Building Tomorrow's Technology. 
+•	The Infrastructure of Intelligence. 
+•	Engineering the Future. 
+•	Intelligence Without Limits. 
+•	Technology Beyond Imagination. 
+•	Where Research Becomes Reality. 
+________________________________________
+Company Overview
+Simplicion is a technology company focused on building next-generation software, artificial intelligence, robotics, cloud infrastructure, intelligent hardware, and advanced engineering systems.
+The company develops products that combine research, engineering, and practical innovation to solve complex problems at global scale.
+Rather than operating as a traditional software agency, Simplicion creates proprietary technologies, platforms, infrastructure, and intelligent products that shape the future of industries.
+Its mission is to build technologies that improve the way humanity works, learns, creates, communicates, and lives.
+________________________________________
+Mission
+To engineer intelligent technologies that expand human capability through scientific research, advanced engineering, and continuous innovation.
+________________________________________
+Vision
+To become one of the world's leading technology companies by creating intelligent systems, platforms, and products that transform industries and improve everyday life.
+________________________________________
+Core Philosophy
+Research First
+Innovation Through Engineering
+Long-Term Thinking
+Global Impact
+Scientific Excellence
+Privacy & Security by Design
+Human-Centered AI
+Scalable Infrastructure
+Continuous Learning
+Responsible Innovation
+________________________________________
+Company Description
+Simplicion researches, designs, develops, engineers, manufactures, deploys, operates, licenses, and supports advanced technology products across multiple domains including:
+Artificial Intelligence
+Machine Learning
+Deep Learning
+Generative AI
+Agentic AI
+Large Language Models
+Natural Language Processing
+Computer Vision
+Software Engineering
+Cloud Infrastructure
+Enterprise Platforms
+SaaS
+Cybersecurity
+Blockchain
+Robotics
+Automation
+Embedded Systems
+Internet of Things
+Edge Computing
+AI Hardware
+Consumer Electronics
+Research Platforms
+Developer Tools
+Digital Infrastructure
+Future Computing
+________________________________________
+Research Areas
+Artificial Intelligence
+Machine Learning
+Deep Learning
+Generative Models
+Neural Networks
+Agentic Systems
+Large Language Models
+Knowledge Graphs
+Computer Vision
+Speech Intelligence
+Autonomous Systems
+Human Computer Interaction
+Edge AI
+Distributed Systems
+Cloud Computing
+Quantum Computing Research
+Digital Twins
+Scientific Computing
+Robotics
+Intelligent Manufacturing
+Cybersecurity
+Privacy Engineering
+Blockchain Systems
+Topological Machine Learning
+Graph Neural Networks
+Mathematical Optimization
+AI Alignment
+Multi-Agent Systems
+________________________________________
+Industries
+Healthcare
+Education
+Finance
+Manufacturing
+Agriculture
+Retail
+Transportation
+Logistics
+Energy
+Government
+Construction
+Telecommunications
+Media
+Defence
+Space Technology
+Consumer Electronics
+Automotive
+Enterprise
+________________________________________
+What We Build
+Artificial Intelligence Platforms
+Enterprise Software
+Cloud Infrastructure
+Mobile Applications
+Web Platforms
+Developer APIs
+Automation Platforms
+Business Intelligence Systems
+Data Platforms
+AI Assistants
+Intelligent Robotics
+Embedded Systems
+AI Devices
+Smart Sensors
+Operating Systems
+Future Computing Platforms
+________________________________________
+Services
+Although Simplicion primarily builds products, it also provides:
+AI Consulting
+Digital Transformation
+Cloud Architecture
+Custom Software Engineering
+Enterprise AI Integration
+Robotics Engineering
+System Architecture
+Technology Research
+Data Engineering
+Cybersecurity Consulting
+API Development
+Platform Engineering
+Product Engineering
+Innovation Consulting
+________________________________________
+Technologies
+Python
+Rust
+Go
+TypeScript
+C++
+Kotlin
+Swift
+Flutter
+React
+Next.js
+Node.js
+TensorFlow
+PyTorch
+LangChain
+Vector Databases
+Docker
+Kubernetes
+AWS
+Azure
+Google Cloud
+Firebase
+PostgreSQL
+MongoDB
+Redis
+Apache Kafka
+OpenCV
+CUDA
+NVIDIA
+Linux
+________________________________________
+Company Values
+Innovation
+Integrity
+Research
+Ownership
+Curiosity
+Excellence
+Engineering
+Reliability
+Trust
+Security
+Scalability
+Quality
+Long-Term Thinking
+________________________________________
+Website Sections
+Home
+Products
+Research
+Technology
+Solutions
+Industries
+Engineering
+Company
+Careers
+News
+Investors
+Contact
+________________________________________
+Hero Heading Ideas
+Engineering the Future Through Intelligence.
+Building the Infrastructure of Tomorrow.
+The Future Begins with Research.
+Engineering Intelligence at Global Scale.
+Creating Technologies That Matter.
+Where Science Meets Engineering.
+Transforming Ideas Into Intelligent Systems.
+Advancing Humanity Through Technology.
+Beyond Software. Beyond AI.
+Research. Engineering. Innovation.
+________________________________________
+Hero Description
+Simplicion is a technology company building intelligent software, advanced AI systems, cloud infrastructure, robotics, and next-generation digital platforms. Through scientific research and engineering excellence, we create technologies that empower businesses, industries, and people around the world.
+________________________________________
+Why Simplicion
+Research Driven
+Built for Scale
+Privacy Focused
+Global Vision
+Enterprise Ready
+Security by Design
+Future Focused
+Innovation First
+________________________________________
+Footer Quote
+We don't simply build technology.
+We engineer the future.
+________________________________________
+Website Style Guide
+Design Style
+•	Premium 
+•	Minimal 
+•	Scientific 
+•	Futuristic 
+•	Elegant 
+•	Enterprise-grade 
+•	Product-focused 
+•	Dark theme 
+•	Clean layouts 
+•	Large typography 
+Color Palette
+•	Background: #09090B 
+•	Primary: #2563EB 
+•	Secondary: #38BDF8 
+•	Accent: #7C3AED 
+•	Text: #FFFFFF 
+•	Muted: #94A3B8 
+Typography
+•	Headings: Michroma 
+•	Body: Inter 
+•	Buttons: Space Grotesk 
+Animation
+•	Smooth scrolling 
+•	Subtle parallax 
+•	Glassmorphism 
+•	Particle background 
+•	Gradient mesh 
+•	Interactive hover effects 
+•	Animated statistics 
+•	Premium page transitions 
+One strategic suggestion
+Because Simplicion is your parent company, avoid making the website read like an agency brochure. Make Products, Research, and Technology the focus. As you launch products like Pitchin180, they should appear as members of the Simplicion ecosystem rather than as client work. That reinforces the message that Simplicion is building its own technology portfolio, not just providing services.
+
+
+
+GIVE ME A FULL DESIGN They give you a full design and description all the things about our company OK and all promoting that we do have right now 2 products so 1 product name is OK three products right now actually like two products one is pitching 180.com one is Workspace.pitching180.com so we have to list those two products also there can go and our products web based software products okay and all the things about our communicate a full ticket design theme Shasta design we have to choose our blue theme color and once you have like let's decide upon interrogated theme color forever for our entire like for our entire company OK the company will be going to be like the blue color which we are going to be used in our switching also there we have they have we have already used that color in our they probably used to hear also :root {
+  /* Swapped Red for Tailwind Blue (blue-600) */
+  --theme-color: #2563eb;
+  --primary-rgb: 37 99 235;
+  --primary-dark-rgb: 29 78 216; /* blue-700 */
+  
+  /* Swapped Purple for Tailwind Indigo (indigo-500) */
+  --secondary: #6366f1;
+  
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --sidebar-width: 260px;
+}
+
+.dark {
+  /* Adjusted for dark mode (blue-500) */
+  --theme-color: #3b82f6;
+  --primary-rgb: 59 130 246;
+  --primary-dark-rgb: 37 99 235; /* blue-600 */
+}
+
+
+This is one place where I'd push back on your approach.
+You're asking for "a company website," but what you're actually need is a corporate identity specification. If you give an AI only content, you'll get a generic SaaS website. If you give it a complete design system, you'll get something that looks like OpenAI, Stripe, Vercel, Linear, Anthropic, or NVIDIA.
+Since Simplicion is your parent company, the website should communicate:
+Simplicion is the company.
+Pitchin180 and Workspace are products built by Simplicion.
+Not the other way around.
+________________________________________
+SIMPLICION DESIGN SPECIFICATION v1.0
+Brand
+Company Name
+SIMPLICION
+________________________________________
+Brand Position
+Engineering Intelligence.
+Building Technologies That Shape The Future.
+Simplicion is a research-driven technology company building next-generation artificial intelligence, enterprise software, cloud infrastructure, intelligent systems, and future computing technologies.
+Unlike traditional software companies, Simplicion focuses on creating long-term technology platforms, research, and products that power businesses and industries globally.
+________________________________________
+Brand Personality
+Modern
+Scientific
+Minimal
+Premium
+Intelligent
+Elegant
+Confident
+Trustworthy
+Future-focused
+Global
+Engineering-first
+Research-driven
+________________________________________
+Core Values
+Research
+Innovation
+Engineering Excellence
+Integrity
+Ownership
+Long-Term Thinking
+Human-Centered AI
+Security by Design
+Continuous Learning
+Open Innovation
+________________________________________
+Brand Keywords
+Artificial Intelligence
+Engineering
+Research
+Cloud
+Infrastructure
+Enterprise
+Innovation
+Scalability
+Automation
+Robotics
+Scientific Computing
+Intelligent Systems
+Future Technology
+________________________________________
+Color System
+These colors become your permanent company identity.
+Primary
+Primary Blue
+
+#2563EB
+This is your forever brand color.
+It appears on
+Buttons
+Links
+Highlights
+Icons
+Logo
+Charts
+Animations
+Product Branding
+________________________________________
+Dark Background
+#09090B
+________________________________________
+Surface
+#111827
+________________________________________
+Border
+#1F2937
+________________________________________
+Primary Text
+#FFFFFF
+________________________________________
+Secondary Text
+#94A3B8
+________________________________________
+Accent
+Indigo
+
+#6366F1
+________________________________________
+Success
+#10B981
+________________________________________
+Warning
+#F59E0B
+________________________________________
+Error
+#EF4444
+________________________________________
+Typography
+Heading
+Michroma
+Large
+Bold
+Wide spacing
+Uppercase
+________________________________________
+Body
+Inter
+________________________________________
+Code
+JetBrains Mono
+________________________________________
+Numbers
+Space Grotesk
+________________________________________
+Icon Style
+Outlined
+2px Stroke
+Rounded Corners
+Blue Glow
+Glass Effect
+Minimal
+________________________________________
+Design Language
+Glassmorphism
+Floating Cards
+Blur Background
+Soft Shadows
+Rounded 20px
+Animated Gradients
+Premium Motion
+________________________________________
+Grid
+12 Column
+Max Width
+1440px
+Content Width
+1280px
+________________________________________
+Border Radius
+Cards
+24px
+Buttons
+14px
+Inputs
+16px
+Modal
+28px
+________________________________________
+Shadow
+Very soft
+Large blur
+Never heavy
+________________________________________
+Motion
+300ms
+Ease In Out
+Smooth Scroll
+Fade
+Slide
+Scale
+No aggressive animation
+________________________________________
+Home Page
+________________________________________
+Hero
+Large animated background.
+Neural network.
+Moving particles.
+Blue glowing lines.
+Headline
+Engineering Intelligence.
+Sub Heading
+Building software, AI, cloud infrastructure, and intelligent technologies that empower the next generation of businesses and society.
+Buttons
+Explore Products
+Research
+________________________________________
+Statistics
+Founded
+2026
+Products
+3
+Countries
+Global
+Technologies
+25+
+Users
+Growing
+________________________________________
+Our Products
+Show product cards.
+________________________________________
+Product 1
+Pitchin180
+Founder Networking Platform
+Connect founders, investors, mentors, startups, agencies, and professionals through intelligent networking.
+Status
+Live
+Button
+Explore
+________________________________________
+Product 2
+Pitchin180 Workspace
+Business Operating System
+AI-powered workspace for startups and growing businesses with CRM, HR, finance, projects, documentation, analytics, and automation.
+Status
+Live
+________________________________________
+Product 3
+Simplicion Labs
+Research Division
+Advanced research in Artificial Intelligence, Intelligent Systems, Robotics, Cloud Infrastructure, and Future Computing.
+Status
+In Development
+________________________________________
+Technologies
+Artificial Intelligence
+Machine Learning
+Generative AI
+LLMs
+Agentic AI
+Computer Vision
+Cloud Computing
+SaaS
+Cybersecurity
+Blockchain
+Robotics
+Automation
+Embedded Systems
+IoT
+Data Analytics
+Developer Tools
+Enterprise Platforms
+________________________________________
+Industries
+Healthcare
+Education
+Finance
+Retail
+Manufacturing
+Construction
+Transportation
+Logistics
+Government
+Media
+Agriculture
+Energy
+Telecommunications
+Consumer Electronics
+________________________________________
+Research
+Artificial Intelligence
+Robotics
+Cloud Infrastructure
+Graph AI
+Distributed Systems
+Multi-Agent Systems
+Large Language Models
+Autonomous Systems
+Human Computer Interaction
+Cybersecurity
+Edge Computing
+Quantum Inspired Computing
+________________________________________
+Timeline
+2026
+Launch Pitchin180
+↓
+Launch Workspace
+↓
+Build AI Infrastructure
+↓
+Expand Globally
+↓
+Launch Robotics
+↓
+Future Computing
+________________________________________
+Company
+Mission
+Vision
+Leadership
+Values
+Engineering
+Research
+Careers
+Newsroom
+Investors
+Partners
+Legal
+Privacy
+Terms
+Security
+________________________________________
+Footer
+Engineering Intelligence.
+Building Technologies That Shape The Future.
+Products
+Research
+Technology
+Company
+Careers
+Contact
+LinkedIn
+GitHub
+X
+________________________________________
+UI Components
+Primary Button
+Filled Blue
+Secondary Button
+Glass
+Cards
+Glass Blur
+Hover Lift
+Gradient Border
+Animated Glow
+________________________________________
+AI Instructions
+Design this website to feel like a hybrid of OpenAI, Anthropic, NVIDIA, Apple, Stripe, Linear, Vercel, and Nothing. Avoid corporate clichés, stock photography, and marketing-heavy language. Prioritize whitespace, typography, subtle motion, scientific visuals, and product-focused storytelling. Every section should reinforce that Simplicion is a long-term technology company building original products and conducting research—not an IT services agency.
+________________________________________
+The one thing I would add
+Right now you have:
+•	Pitchin180 
+•	Pitchin180 Workspace 
+I strongly recommend creating a third umbrella on the website:
+Simplicion Labs
+Even if it's just a research section today.
+It gives your company a place to publish engineering articles, AI experiments, open-source work, technical blogs, and future projects. Over time, Simplicion Labs can become one of your strongest brand assets, much like DeepMind's research identity or Google's research divisions.
+I actually think this is a very strong strategic decision.
+Don't make Simplicion just a company website. Make it an ecosystem.
+Here's the structure I'd recommend:
+simplicion.com
+│
+├── /
+│   ├── Home
+│   ├── About
+│   ├── Products
+│   ├── Research
+│   ├── Technology
+│   ├── Careers
+│   ├── Contact
+│
+├── labs.simplicion.com
+│   ├── Research Papers
+│   ├── Engineering Blogs
+│   ├── AI Models
+│   ├── Open Source
+│   ├── Experiments
+│   ├── Whitepapers
+│   ├── Benchmarks
+│   ├── API Documentation
+│
+├── docs.simplicion.com
+│
+├── api.simplicion.com
+│
+├── developers.simplicion.com
+│
+├── status.simplicion.com
+│
+├── careers.simplicion.com
+│
+├── investors.simplicion.com
+│
+└── press.simplicion.com
+________________________________________
+Products
+Don't call them projects.
+Call them Products.
+Products
+
+Pitchin180
+
+The AI-powered founder networking platform.
+
+Status
+Live
+
+-----------------------
+
+Pitchin180 Workspace
+
+The operating system for modern startups.
+
+Status
+Live
+
+-----------------------
+
+Simplicion Labs
+
+Advanced AI & Engineering Research
+
+Status
+Research
+
+-----------------------
+
+More products coming soon...
+________________________________________
+Simplicion Labs
+This should become your "DeepMind."
+When someone clicks Labs, they should enter a completely different experience.
+Hero:
+Researching the Next Generation of Intelligence.
+Subtext
+Simplicion Labs explores artificial intelligence, robotics, intelligent systems, cloud infrastructure, scientific computing, and future technologies through research, experimentation, and engineering.
+________________________________________
+Sections inside Labs
+Research
+•	Artificial Intelligence 
+•	Machine Learning 
+•	Large Language Models 
+•	Multi-Agent Systems 
+•	Graph AI 
+•	Computer Vision 
+•	Robotics 
+•	Autonomous Systems 
+•	Edge AI 
+•	Distributed Systems 
+________________________________________
+Publications
+Engineering articles.
+Research papers.
+Whitepapers.
+Case studies.
+________________________________________
+Experiments
+Experimental products.
+AI demos.
+Robotics demos.
+Prototype showcase.
+________________________________________
+Open Source
+GitHub projects.
+SDKs.
+Libraries.
+Developer tools.
+________________________________________
+Engineering Blog
+How your systems work.
+Architecture.
+Performance.
+AI research.
+Scaling.
+________________________________________
+Benchmarks
+Model comparison.
+Performance testing.
+Latency.
+Optimization.
+________________________________________
+Documentation
+API Docs
+SDK
+CLI
+Guides
+Tutorials
+________________________________________
+Future Domains
+I would reserve these immediately if possible.
+labs.simplicion.com
+
+docs.simplicion.com
+
+api.simplicion.com
+
+developers.simplicion.com
+
+careers.simplicion.com
+
+status.simplicion.com
+
+security.simplicion.com
+
+trust.simplicion.com
+
+press.simplicion.com
+
+investors.simplicion.com
+________________________________________
+Navigation
+Home
+
+Products
+
+Research
+
+Technology
+
+Labs
+
+Careers
+
+Company
+Notice there is no Services.
+You're building products.
+________________________________________
+Company Structure
+SIMPLICION
+
+│
+
+├── Pitchin180
+
+├── Pitchin180 Workspace
+
+├── Simplicion Labs
+
+├── Simplicion Cloud (Future)
+
+├── Simplicion AI (Future)
+
+├── Simplicion Robotics (Future)
+
+├── Simplicion OS (Future)
+
+├── Simplicion Security (Future)
+________________________________________
+Company Philosophy
+I would position Simplicion with a simple message:
+Simplicion is a technology company building intelligent products, infrastructure, and research that advance how people and organizations work.
+Then each product has its own focused identity:
+•	Pitchin180 — Founder networking and startup ecosystem. 
+•	Pitchin180 Workspace — AI-powered business operating system. 
+•	Simplicion Labs — Research, experimentation, and engineering. 
+That separation is how mature technology companies organize themselves: the corporate brand provides vision and trust, while each product has a clear purpose and audience.
+Yes—use Next.js, not plain React.
+Given your long-term goals for Simplicion, Next.js 15 + React 19 + TypeScript is the right choice. It gives you server-side rendering (SSR), static generation (SSG), metadata support, image optimization, and much stronger SEO than a traditional React SPA.
+For a company website that should rank well in Google and also be easily understood by AI systems, Next.js is the better architecture.
+________________________________________
+Technology Stack
+Frontend
+•	Next.js 15 (App Router) 
+•	React 19 
+•	TypeScript 
+•	Tailwind CSS 
+•	Framer Motion 
+•	GSAP (only where necessary) 
+•	Three.js + React Three Fiber (for hero animations) 
+•	Lucide React Icons 
+________________________________________
+Backend
+•	Next.js Route Handlers 
+•	Node.js 
+•	TypeScript 
+________________________________________
+CMS
+Choose one of these:
+Option 1 (Recommended)
+Sanity CMS
+Reasons:
+•	Excellent editor experience 
+•	SEO friendly 
+•	Flexible 
+•	Great with Next.js 
+________________________________________
+Option 2
+Contentful
+________________________________________
+Option 3
+Strapi
+________________________________________
+Database
+PostgreSQL
+Prisma ORM
+________________________________________
+Authentication
+Clerk
+or
+Auth.js
+________________________________________
+Forms
+React Hook Form
+Zod
+________________________________________
+Email
+Resend
+________________________________________
+Analytics
+Google Analytics 4
+Google Search Console
+Microsoft Clarity
+Hotjar
+PostHog
+Vercel Analytics
+Vercel Speed Insights
+________________________________________
+Hosting
+Vercel
+Cloudflare DNS
+Cloudflare WAF
+Cloudflare CDN
+________________________________________
+Performance Targets
+Lighthouse
+Performance
+100
+Accessibility
+100
+Best Practices
+100
+SEO
+100
+Core Web Vitals
+All green
+________________________________________
+SEO Requirements
+Every page must include:
+•	Unique title 
+•	Unique meta description 
+•	Open Graph tags 
+•	Twitter Card tags 
+•	Canonical URL 
+•	Robots directives 
+•	Structured Data (JSON-LD) 
+•	Breadcrumb schema (where applicable) 
+•	Organization schema 
+•	Product schema (for products) 
+•	Article schema (for blogs) 
+•	FAQ schema (for FAQs) 
+________________________________________
+AI Search Optimization (AEO)
+Design the content so AI assistants can understand it well.
+Include:
+•	Clear headings (H1–H3) 
+•	Concise summaries 
+•	FAQ sections 
+•	Semantic HTML 
+•	JSON-LD 
+•	Descriptive image alt text 
+•	Logical page hierarchy 
+•	Internal linking between products, research, and company pages 
+________________________________________
+Website Structure
+/
+├── Home
+├── Products
+│   ├── Pitchin180
+│   ├── Pitchin180 Workspace
+│   └── Future Products
+├── Research
+├── Labs
+├── Technology
+├── Company
+├── Careers
+├── Blog
+├── News
+├── Contact
+├── Privacy
+├── Terms
+└── Security
+________________________________________
+Subdomains
+labs.simplicion.com
+docs.simplicion.com
+api.simplicion.com
+developers.simplicion.com
+status.simplicion.com
+careers.simplicion.com
+press.simplicion.com
+investors.simplicion.com
+trust.simplicion.com
+________________________________________
+Folder Structure
+src/
+│
+├── app/
+├── components/
+│   ├── ui/
+│   ├── layout/
+│   ├── sections/
+│   ├── animations/
+│   ├── cards/
+│   ├── icons/
+│   └── common/
+│
+├── lib/
+├── hooks/
+├── styles/
+├── types/
+├── utils/
+├── services/
+├── constants/
+├── config/
+├── providers/
+├── store/
+├── content/
+├── assets/
+└── middleware.ts
+________________________________________
+Design System
+Theme Color
+Primary
+
+#2563EB
+Dark Background
+#09090B
+Surface
+#111827
+Border
+#1F2937
+Text
+#FFFFFF
+Secondary Text
+#94A3B8
+________________________________________
+Typography
+Heading
+Michroma
+Body
+Inter
+Mono
+JetBrains Mono
+________________________________________
+Motion
+•	Smooth page transitions 
+•	Scroll-triggered reveals 
+•	Floating glass cards 
+•	Soft glow effects 
+•	Respect prefers-reduced-motion 
+________________________________________
+Responsiveness
+The site should be designed mobile-first and work flawlessly on:
+•	320px (small phones) 
+•	375px (iPhone) 
+•	390px 
+•	414px 
+•	768px (tablets) 
+•	1024px (small laptops) 
+•	1280px 
+•	1440px 
+•	1920px 
+•	2560px (4K) 
+Avoid fixed widths. Use fluid layouts, CSS Grid, Flexbox, clamp() for typography, and responsive spacing.
+________________________________________
+Accessibility
+Target WCAG 2.2 AA.
+Include:
+•	Keyboard navigation 
+•	Visible focus states 
+•	Proper color contrast 
+•	ARIA labels where needed 
+•	Skip-to-content link 
+•	Semantic HTML 
+________________________________________
+Security
+•	Security headers 
+•	CSP 
+•	HSTS 
+•	X-Frame-Options 
+•	X-Content-Type-Options 
+•	Referrer-Policy 
+•	Rate limiting on forms 
+•	Spam protection (e.g., Turnstile or reCAPTCHA) 
+________________________________________
+Future Scalability
+Design the architecture so the website can later support:
+•	Multi-language content 
+•	Careers portal 
+•	Investor relations 
+•	Press room 
+•	Documentation 
+•	API reference 
+•	Engineering blog 
+•	Research publications 
+•	Product launches 
+•	Customer portal 
+________________________________________
+One architectural recommendation
+Keep the corporate website and product applications separate.
+For example:
+•	simplicion.com → Corporate website (Next.js) 
+•	pitchin180.com → Product marketing site 
+•	workspace.pitchin180.com → The actual application 
+•	labs.simplicion.com → Research and engineering content 
+This separation makes deployments, SEO, analytics, and branding much cleaner as your product portfolio grows.
+
